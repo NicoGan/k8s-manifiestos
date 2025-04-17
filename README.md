@@ -33,6 +33,17 @@ git clone https://github.com/NicoGan/k8s-manifiestos.git
 ```
 
 ---
+### 📁 Importante si usás WSL o una VM
+
+Si estás usando **WSL** o una **máquina virtual Linux**, debés mover las carpetas de los repositorios **dentro del sistema de archivos de Linux** para que Minikube pueda montarlas correctamente.
+
+📌 Por ejemplo:
+
+1. Copiá las carpetas a `/home/tu_usuario/`  
+2. Asegurate de que estén accesibles desde el entorno Linux donde vas a correr Minikube.
+
+---
+
 
 ### 🚀 Iniciar Minikube con montaje de archivos
 
